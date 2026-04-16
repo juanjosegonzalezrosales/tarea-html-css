@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ejercicio1{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 10px;;
+            padding: 0; 
+            width: 70vw;
+            height: 200px;
+            margin-left: 200px;
+        }
+
+        #ejercicio1 div:nth-of-type(1){
+            background-color: orange;
+        }
+
+        #ejercicio1 div:nth-of-type(2){
+            background-color: blue;
+        }
+
+        #ejercicio1 div:nth-of-type(3){
+            background-color: purple;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        #ejercicio2{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;;
+            padding: 0; 
+            width: 70vw;
+            height: 200px;
+            margin-left: 200px;
+        }
+
+        #ejercicio2 #u1 {
+            background-color: orange;
+        }
+        #ejercicio2 #u2-5 {
+            background-color: orange;
+            grid-area: 1 / 2 / 3 / 3;
+        }
+        #ejercicio2 #u3 {
+            background-color: orange;
+        }
+        #ejercicio2 #u4-7 {
+            background-color: blue;
+            grid-area: 2 / 1 / 4 / 2;
+        }
+        #ejercicio2 #u6-9 {
+            background-color: purple;
+            grid-area: 2 / 3 / 4 / 4;
+        }
+        #ejercicio2 #u8{
+            background-color: purple;
+        }
+
+        #ejercicio3{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;;
+            padding: 0; 
+            width: 70vw;
+            height: 200px;
+            margin-left: 200px;
+        }
+
+        #ejercicio3 #u1 {
+            background-color: orange;
+            grid-area: 1 / 1 / 3 / 2;
+        }
+        #ejercicio3 #u2-5 {
+            background-color: orange;
+        }
+        #ejercicio3 #u3 {
+            background-color: blue;
+            grid-area: 1 / 3 / 3 / 4;
+        }
+        #ejercicio3 #u4-7 {
+            background-color: purple;
+        
+        }
+        #ejercicio3 #u6-9 {
+            background-color: purple;
+        }
+        #ejercicio3 #u8{
+            background-color: purple;
+            grid-area: 2 / 2 / 4 / 3;
+        }
+
+        #ejercicio4{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;;
+            padding: 0; 
+            width: 70vw;
+            height: 200px;
+            margin-left: 200px;
+        }
+
+        #ejercicio4 #u1 {
+            background-color: orange;
+            grid-area: 1 / 1 / 2 / 3;
+        }
+        #ejercicio4 #u2-5 {
+            background-color: orange;
+        }
+        #ejercicio4 #u3 {
+            background-color: blue;
+            grid-area: 2 / 2 / 3 / 4;
+        }
+        #ejercicio4 #u4-7 {
+            background-color: blue;
+        
+        }
+        #ejercicio4 #u6-9 {
+            background-color: purple;
+        }
+        #ejercicio4 #u8{
+            background-color: purple;
+            grid-area: 3 / 1 / 4 / 3;
+        }
+
+
+
+         #ejercicio5{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;;
+            padding: 0; 
+            width: 70vw;
+            height: 200px;
+            margin-left: 200px;
+        }
+
+        #ejercicio5 #u1 {
+            background-color: orange;
+            
+        }
+        #ejercicio5 #u2 {
+            background-color: orange;
+        }
+        #ejercicio5 #u3 {
+            background-color: orange;
+            
+        }
+        #ejercicio5 #u4 {
+            background-color: blue;
+        
+        }
+        #ejercicio5 #u5 {
+            background-color: blue;
+        }
+        #ejercicio5 #u6{
+            background-color: blue;
+           
+        }
+        #ejercicio5 #u7 {
+            background-color: purple;
+        
+        }
+        #ejercicio5 #u8 {
+            background-color: purple;
+        }
+        #ejercicio5 #u9 {
+            background-color: purple;
+            
+        }
+    </style>
+</head>
+<body>
+<hr>
+<h2>Ejercicio 1</h2>
+<div id="ejercicio1">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<br>
+<hr>
+<br>
+<h2>Ejercicio 2</h2>
+<div id="ejercicio2">
+    <div id="u1">1</div>
+    <div id="u2-5">2</div>
+    <div id="u3">3</div>
+    <div id="u4-7">4</div>
+    <div id="u6-9">6</div>
+    <div id="u8">8</div>
+</div>
+<br>
+<hr>
+<br>
+<h2>Ejercicio 3</h2>
+<div id="ejercicio3">
+    <div id="u1">1</div>
+    <div id="u2-5">2</div>
+    <div id="u3">3</div>
+    <div id="u4-7">4</div>
+    <div id="u6-9">6</div>
+    <div id="u8">8</div>
+</div>
+<br>
+<hr>
+<br>
+<h2>Ejercicio 4</h2>
+<div id="ejercicio4">
+    <div id="u1">1</div>
+    <div id="u2-5">2</div>
+    <div id="u3">3</div>
+    <div id="u4-7">4</div>
+    <div id="u6-9">6</div>
+    <div id="u8">8</div>
+</div>
+<br>
+<hr>
+<br>
+<h2>Ejercicio 5</h2>
+<div id="ejercicio5">
+    <div id="u1">1</div>
+    <div id="u2">2</div>
+    <div id="u3">3</div>
+    <div id="u4">4</div>
+    <div id="u5">4</div>
+    <div id="u6">6</div>
+    <div id="u7">6</div>
+    <div id="u8">8</div>
+    <div id="u9">4</div>
+</div>
+<br>
+<hr>
+</body>
+</html>
